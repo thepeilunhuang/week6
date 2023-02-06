@@ -2,15 +2,31 @@ div h2{
     font-style: italic;
 }
 
-h2 ~ p{
+h2 + p{
     color: red;
 }
 
-
-ul{
+.list > li{
     list-style-type: none;
+    border-bottom:  1px solid gray ;
 }
 
-.list > li{
-    border-bottom:  1px solid gray ;
+li a{
+    color: green;
+}
+li a:visited{
+    color: red;
+}
+
+li a:hover{
+    color: pink;
+}
+
+li:first-child::first-letter{
+        font-size: 120%;
+        font-weight: bold;
+}
+
+[title="BCIT homepage"]{
+    background-color: yellow;
 }
