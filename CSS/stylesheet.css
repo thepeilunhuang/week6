@@ -11,7 +11,7 @@ h2 + p{
     border-bottom:  1px solid gray ;
 }
 
-li a{
+li a:link{
     color: green;
 }
 li a:visited{
@@ -29,4 +29,12 @@ li:first-child::first-letter{
 
 [title="BCIT homepage"]{
     background-color: yellow;
+}
+
+img{
+    float: left;
+}
+
+.below{
+    clear: left;
 }
